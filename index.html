@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mercedes-Benz.io Challenge for Frontend Developers</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="index.js"></script>
+</head>
+<body>
+  <header role="banner">
+    <div class="logo">
+      <img class="star" src="assets/mb-star.svg" alt="Mercedes-Benz" width="60" height="60">
+      <img class="wordmark" src="assets/mb-wordmark.svg" alt="Mercedes-Benz Wordmark" width="80" height="20">
+    </div>
+    <div class="shopping-bag">
+      <data class="bag-price" id="bag-price" value="0">0,00 €</data>
+      <img class="bag-icon" src="assets/shoppingBag.png" alt="Shopping bag">
+    </div>
+  </header>
+  <main>
+    <div id="cars">
+      <header class="cars-header">
+        <h1 class="cars-title">Cars In Stock</h1>
+        <input class="cars-search" id="cars-search" placeholder="Type to filter..."></input>
+      </header>
+      <div id="cars-list">
+        <div id="empty-list">
+          <p> No cars with that name were found :( </p>
+        </div>
+      </div>
+    </div>
+    <div id="is-loading">
+      <img class="loading-spinner" src="assets/spinner.svg" alt="Shopping bag">
+    </div>
+  </main>
+  <div class="go-wide">
+    I look much better in a wide window ;)
+  </div>
+  <footer role="contentinfo">
+    <div class="author">
+      <p>FE Challenge by Vitor Peixoto</p>
+    </div>
+  </footer>
+</body>
+</html>
